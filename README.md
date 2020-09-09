@@ -1,1 +1,1 @@
-https://koldovsky.github.io/online-shop/
+https://zebestlove.github.io/chabik-shop/
