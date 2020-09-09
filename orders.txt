@@ -1,4 +1,1 @@
-{"clientName":"asdf","clientEmail":"123123@gmail.com","cart":{"2":1}}
-{"clientName":"asdf","clientEmail":"123123@gmail.com","cart":{"2":1}}
-{"clientName":"Галан","clientEmail":"123123@gmail.com","cart":{"1":1}}
 {"clientName":"asdf","clientEmail":"asdf@gmail.com","cart":{"2":1}}
