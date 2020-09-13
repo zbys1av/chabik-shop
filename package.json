@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/zebestlove/chabik-shop/issues"
   },
-  "homepage": "https://github.com/zebestlove/chabik-shop#readme"
+  "homepage": "https://github.com/zebestlove/chabik-shop#readme",
+  "devDependencies": {}
 }
