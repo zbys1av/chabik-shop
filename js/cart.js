@@ -114,13 +114,13 @@ class Cart {
           }
         })
         .then(responseText => {
-          form.reset();
+          // form.reset();
           this.cart = {};
-          this.saveCart();
+          // this.saveCart();
           this.updateBadge();
-          this.renderCart();
+          // this.renderCart();
           window.showAlert('Thank you! ' + responseText);
-          this.cartContainer.querySelector('.btn-close').click();
+          // this.cartContainer.querySelector('.btn-close').click();
         })
         .catch(error => showAlert('There is an error: ' + error, false));
     } else {

@@ -1,32 +1,43 @@
 let in1 = document.getElementById("client-name");
 let in2 = document.getElementById("client-email");
 let in3 = document.getElementById("full-info");
-let productName = document.querySelector(".col-5-t");
+// let productName = document.querySelector(".col-5-t");
 
 // let b = document.getElementById("div");
-let a = txtFile.responseText;
+document.getElementById("order-form").style.visibility = "hidden";
 
-function read()  
+document.getElementById('confirm-file').addEventListener('click', confirm);
+// document.getElementById('order-form').addEventListener('click', read);
+
+function pressBtn(){
+  if (in3.length > 0){
+    document.getElementById('order-form').click();
+    form.reset();
+  }
+}
+
+function confirm()  
 {  
-     var txtFile = new XMLHttpRequest();  
+     let txtFile = new XMLHttpRequest();
+     let a = txtFile.responseText;
      txtFile.open("GET", "./orders.txt", true);
      txtFile.onreadystatechange = function()
      {
         a = txtFile.responseText;
         a = a.replaceAll('"', "").split("\n");
         in3.value = a[a.length-1];
-
+        pressBtn();
      }
     // console.log(b.value);
     txtFile.send(null);
-    transferinfo();
+    // transferinfo();
 }
 
-document.getElementById('buy').addEventListener('click', read);
+// document.getElementById('order-form').addEventListener('click', read);
 
-function transferinfo(){
-  in3.value += in3.value;
-}
+// function transferinfo(){
+//   in3.value += in3.value;
+// }
 
 
 
