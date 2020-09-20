@@ -1,1 +1,1 @@
-https://zebestlove.github.io/chabik-shop/
+https://zbys1av.github.io/chabik-shop/
